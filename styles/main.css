@@ -1,0 +1,174 @@
+.grid__row {
+  font-size: 0; }
+
+.grid__col--1 {
+  display: inline-block;
+  width: 8.33333%;
+  font-size: 1.4rem; }
+
+.grid__col--2 {
+  display: inline-block;
+  width: 16.66667%;
+  font-size: 1.4rem; }
+
+.grid__col--3 {
+  display: inline-block;
+  width: 25%;
+  font-size: 1.4rem; }
+
+.grid__col--4 {
+  display: inline-block;
+  width: 33.33333%;
+  font-size: 1.4rem; }
+
+.grid__col--5 {
+  display: inline-block;
+  width: 41.66667%;
+  font-size: 1.4rem; }
+
+.grid__col--6 {
+  display: inline-block;
+  width: 50%;
+  font-size: 1.4rem; }
+
+.grid__col--7 {
+  display: inline-block;
+  width: 58.33333%;
+  font-size: 1.4rem; }
+
+.grid__col--8 {
+  display: inline-block;
+  width: 66.66667%;
+  font-size: 1.4rem; }
+
+.grid__col--9 {
+  display: inline-block;
+  width: 75%;
+  font-size: 1.4rem; }
+
+.grid__col--10 {
+  display: inline-block;
+  width: 83.33333%;
+  font-size: 1.4rem; }
+
+.grid__col--11 {
+  display: inline-block;
+  width: 91.66667%;
+  font-size: 1.4rem; }
+
+.grid__col--12 {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.4rem; }
+
+.grid__col--6 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica neue", sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: whitesmoke; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+header {
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+  display: inline-block;
+  margin-bottom: 2rem;
+  width: 100%; }
+
+main {
+  width: 100%; }
+
+.logo {
+  display: inline-block;
+  margin-left: 2rem;
+  width: 12rem; }
+
+.logo--link {
+  display: inline-block; }
+
+.form {
+  border-radius: 0.5rem;
+  display: inline-block;
+  font-size: 0;
+  height: 4rem;
+  margin-left: 1rem;
+  vertical-align: top;
+  width: 50%; }
+
+.input--field {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border: 1px solid gainsboro;
+  border-right: none;
+  font-size: 1.4rem;
+  height: 100%;
+  padding-left: 1rem;
+  width: 70%; }
+
+.input--field:focus {
+  outline: none; }
+
+.input--button {
+  background-color: #2ca8c4;
+  border: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  color: white;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  height: 100%;
+  margin-top: 2rem;
+  position: relative;
+  text-decoration: none;
+  width: 30%; }
+
+.results {
+  font-size: 0; }
+
+.result {
+  background: red;
+  display: inline-block;
+  list-style: none;
+  max-height: 10rem;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  width: 100%; }
+
+.result img {
+  max-width: 150%;
+  position: relative; }
+
+.result__footer {
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  position: relative;
+  vertical-align: top; }
+
+.result__description {
+  display: block; }
+
+.result__company {
+  color: #c8c8c8;
+  display: inline-block; }
+
+.result__price {
+  color: #00dc78;
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */
