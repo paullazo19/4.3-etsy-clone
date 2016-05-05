@@ -1,0 +1,85 @@
+// form
+
+.logo
+  display: inline-block
+  margin-left: 2rem
+  width: 10rem
+
+.logo--link
+  display: inline-block
+
+.form
+  border-radius: 0.5rem
+  display: inline-block
+  font-size: 0
+  height: 4rem
+  margin-left: 1rem
+  margin-top: -0.75rem
+  vertical-align: top
+  width: 60%
+
+.input--field
+  border-top-left-radius: 0.5rem
+  border-bottom-left-radius: 0.5rem
+  border: 1px solid $color__lightgray
+  border-right: none
+  font-size: 1.2rem
+  height: 100%
+  padding-left: 1rem
+  width: 70%
+  cursor: text
+
+.input--field:focus
+  outline: none
+
+.input--button
+  background-color: $color__blue
+  border: none
+  border-top-right-radius: 0.5rem
+  border-bottom-right-radius: 0.5rem
+  color: $color__white
+  display: inline-block
+  font-size: 1.2rem
+  font-weight: 500
+  height: 100%
+  margin-top: 2rem
+  position: relative
+  text-decoration: none
+  width: 30%
+  cursor: pointer
+
+.input--button:active
+  background-color: rgb(0, 100, 255)
+
+.input--button:focus
+  outline: none
+
+@media (min-width: 479px) and (max-width: 767px)
+  .form
+    width: 55%
+
+  .input--button
+    font-size: 1.6rem
+
+  .input--field
+    font-size: 1.6rem
+
+@media (min-width: 768px) and (max-width: 978px)
+  .form
+    width: 53%
+
+  .input--button
+    font-size: 1.6rem
+
+  .input--field
+    font-size: 1.6rem
+
+@media (min-width: 979px)
+  .form
+    width: 52%
+
+  .input--button
+    font-size: 1.6rem
+
+  .input--field
+    font-size: 1.6rem
