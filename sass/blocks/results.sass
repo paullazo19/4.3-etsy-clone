@@ -3,17 +3,25 @@
   font-size: 0
 
 .result
-  background: red
+  // background: red
   display: inline-block
+  font-size: 0
   list-style: none
   max-height: 10rem
-  overflow: hidden
   position: relative
   text-decoration: none
   width: 100%
 
-.result img
-  max-width: 150%
+.result__image
+  font-size: 0
+  display: inline-block
+  overflow: hidden
+  position: relative
+  height: 10rem
+  width: 100%
+
+.result__image img
+  width: 125%
   position: relative
 
 .result__footer
@@ -22,9 +30,13 @@
   padding: 0.5rem
   position: relative
   vertical-align: top
+  box-shadow: 0rem 0rem 0.25rem $color__lightgray
 
 .result__description
   display: block
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
 
 .result__company
   color: rgb(200, 200, 200)
@@ -33,3 +45,27 @@
 .result__price
   color: rgb(0, 220, 120)
   float: right
+
+.column
+  margin-bottom: 1rem
+
+@media (min-width: 479px) and (max-width: 767px)
+  .column
+    width: 33.33333%
+
+  .result__image
+    height: 12rem
+
+@media (min-width: 768px) and (max-width: 978px)
+  .column
+    width: 25%
+
+  .result__image
+    height: 12rem
+
+@media (min-width: 979px)
+  .column
+    width: 25%
+
+  .result__image
+    height: 13rem
